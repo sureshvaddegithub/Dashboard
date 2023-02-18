@@ -1,0 +1,149 @@
+bpdy{
+    margin:0;
+    
+}
+
+.main-bg{
+    background-color: rgb(75, 68, 68);
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.bg{
+    background-color: black;
+    color:white;
+    padding:10px;
+    display:grid;
+    gap:10px;
+    
+
+}
+
+.heading{
+    padding:10px;
+    border:1px solid gray;
+    
+    border-radius: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap:20px;
+    
+}
+
+.left-container{
+    display:grid;
+    gap:10px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    border:1px solid gray;
+    justify-content: center;
+    align-items:center;
+    border-radius:10px;
+    
+  
+}
+
+
+.profile img{
+    width:50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.list{
+    border:1px solid gray;
+    font-size:12px;
+   
+    border-radius:10px;
+}
+
+.social-box{
+    border:1px solid gray;
+ 
+    border-radius:10px;
+    padding:13px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   justify-content: center;
+    
+
+}
+.social-box a{
+    text-decoration: none;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.social-box a img{
+    height : 20px;
+      
+}
+
+.social-box a p{
+    color:gray;
+    padding-left: 10px;
+    margin:4px;
+}
+
+
+
+.right-container{
+    border:1px solid gray;
+    border-radius:10px;
+    padding:10px;
+    
+}
+
+table{
+    border:1px solid gray;
+    width:100%;
+   border-radius:10px;
+   border-collapse: collapse;
+}
+th{
+     border-left: 1px solid gray;
+     border-bottom: 1px solid gray;
+     text-align: start;
+     padding-left: 10px;
+}
+td{
+    text-align: center;
+    border-left: 1px solid gray;
+    color:gray;
+}
+td:nth-child(3){
+    text-align:start;
+    padding-left:10px;
+}
+td img{
+    height:12px;
+    border:1px solid gray;
+    border-radius: 3px;
+    vertical-align: center;
+}
+
+
+@media (max-width:640){
+    .main-bg{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid{
+        display: none;
+    }
+}
+
+
